@@ -1,0 +1,30 @@
+.advantages {
+    min-height: 470px;
+    background-color: #f6f6f6;
+    padding: 70px 0 78px 0;
+
+    &__items {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__item {
+        width: 245px;
+        text-align: center;
+    }
+
+    &__text {
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: 300;
+        color: $text-color;
+    }
+
+    span {
+        text-decoration: underline;
+        color: $love-run;
+    }
+
+}
