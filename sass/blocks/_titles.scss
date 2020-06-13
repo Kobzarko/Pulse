@@ -3,8 +3,17 @@
     font-weight: 700;
     color: #0d0d0d;
     text-align: center;
-    &_adv{
+
+    &_adv {
         margin-top: 38px;
         font-size: 18px;
+    }
+
+    &_left {
+        text-align: left;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
     }
 }
